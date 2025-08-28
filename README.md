@@ -14,6 +14,8 @@ View your saved flashcards inside the extension.
 
 Print flashcards in a 2x3 grid per page (6 per page) with an option to delete all after printing.
 
+Uses Jisho.org for Japanese to English translations
+
 Steps for usage:
 1. Clone this repository
 2. Open Firefox and go to about:debugging#/runtime/this-firefox.
