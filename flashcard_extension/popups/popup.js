@@ -172,12 +172,14 @@ async function printFlashcards() {
   chunks.forEach(chunk => {
     bodyHTML += `<div class="page">`;
     chunk.forEach(card => {
-      bodyHTML += `<div class="flashcard">
-        <div class="term">${card.term}</div>
-        ${card.reading ? `<div class="reading">${card.reading}</div>` : ''}
-        <div class="definition">${card.definition || ''}</div>
-      </div>`;
-    });
+  bodyHTML += `<div class="flashcard">
+    <div class="term">${card.term}</div>
+    ${card.reading ? `<div class="reading">${card.reading}</div>` : ''}
+    <div class="definition">${card.definition || ''}</div>
+    ${card.examples && card.examples.length ? `<div class="examples">Examples: ${card.examples.join(" / ")}</div>` : ''}
+  </div>`;
+});
+
     bodyHTML += `</div>`;
   });
 
