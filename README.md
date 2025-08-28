@@ -25,6 +25,9 @@ Steps for usage:
 8. Open the extension popup to view, edit, or delete flashcards.
 9. Click “Print Flashcards” in the popup to open a printable layout and print 6 flashcards per page. Optionally delete all after printing. Feel free to save the flashcards as a pdf from the print menu as well!
 
+10. When exiting the browswer at all, all saved flashcards will be lost. Make sure to save save your flashcard pdfs regularly/at the end of your study sessions.
+
+    
 Contributing
 
 Contributions are welcome! Fork the repo, make changes, and submit a pull request. Feel free to repurpose this however you like. 
